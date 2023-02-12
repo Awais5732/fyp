@@ -1,0 +1,67 @@
+.banner-contanier {
+    position: relative;
+    height: 80vh;
+ 
+    background-image: url(cleaning.png);   
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    animation-name: animate ;
+    animation-duration: 30s ;
+    animation-direction:alterbate-reverse ;
+    animation-fill-mode: forwards ;
+    animation-iteration-count:infinite ;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+.title-homefix {
+    width: 50%;
+    position: absolute;
+    opacity: 0.9;
+    left:5%;
+    top: 20%;
+}
+.skill {
+    font-size: 60px;
+    animation-name: animate;
+}
+.doorstep {
+    font-size:50px;
+    color: white;
+    margin-top: 8px;
+}
+.book-now {
+    margin-top: 5%;
+    padding:12px 15px;
+    border: 1px solid #3498db;
+    border-radius: 15px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #3498db;
+}
+@keyframes animate {
+    20%{
+     
+        background-image: url(electracion.jpg);
+        color: rgb(255, 140, 0);
+    }
+    40%{
+        
+        background-image: url(carpenter.jpg);
+        color: rgb(225, 66, 66);
+      
+    }
+    60%{
+        background-image: url(cleaning.png);
+        color: black;
+       
+    }
+    80%{
+        background-image: url(plumber.jpg);
+        color: blue;
+        
+       
+    }
+}

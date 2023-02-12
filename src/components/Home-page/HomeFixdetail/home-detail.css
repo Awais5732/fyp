@@ -1,0 +1,56 @@
+.choose-title {
+    text-align: center;
+  margin-bottom: 0;
+    font-size: 35px;
+}
+.choose-paragraph {
+    text-align: center;
+    font-size: 24px;
+    opacity: 0.6;
+}
+.homeFixDetail-contanier {
+     display: flex;
+     margin: 50px;
+     box-shadow:rgb(74, 73, 73) 0px 5px 15px;
+     background-color: rgb(228, 223, 223);
+     border-radius: 10px;
+}
+.homeFixDetail-left-contanier {
+    background-color: black;
+    border-radius: 10px 0px 0px 10px ;
+    flex: 0 1 50%;
+}
+.homeFixDetail-img-contanier {
+    height: 600px;
+    opacity: 0.6;
+    border-radius: 10px 0px 0px 10px ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(home-services-investments-768x461.jpg); 
+    
+}
+.homeFixDetail-right-contanier {
+    flex: 1 0 50%;
+    padding: 25px 10px 25px 20px;
+   
+}
+.homeFixDetail-right-sub-contanier{
+    list-style: none;
+}
+.homeFixDetail-right-sub-contanier h2 {
+    margin-bottom: 30px;
+}
+.homeFixDetail-right-sub-contanier p {
+    margin-bottom: 40px;
+}
+.homeFixDetail-right-sub-contanier li {
+    margin-bottom: 20px;
+}
+.homeFixDetail-right-contanier-detail {
+    display: flex;
+    column-gap: 10px;
+}
+.homeFixDetail-right-sub-contanier ion-icon {
+    font-size: 30px;
+}

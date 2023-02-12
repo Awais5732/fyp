@@ -1,0 +1,31 @@
+.about-us-contanier {
+    background-image: url(fggfg.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 130vh;
+    padding-top: 130px ;
+}
+.about-us-sub-contanier {
+    width: 40%;
+    height: 500px;
+   margin: 0 auto;
+   text-align: center;
+}
+.about-us-sub-contanier img {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #ec5711;
+}
+.about-us-sub-contanier p {
+    font-size: 20px;
+    line-height: 35px;
+}
+.ContactUs-btn {
+    padding:8px 20px;
+    border-radius: 30px;
+    color: white;
+    border: 1px solid #3498db;
+    background-color: #3498db;
+    font-size: 30px;
+}

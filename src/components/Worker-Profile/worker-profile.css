@@ -1,0 +1,153 @@
+.worker-profile-contanier {
+    background-color:white;
+    box-shadow:rgb(74, 73, 73) 0px 5px 15px;
+    margin: 100px auto;
+    padding-bottom: 30px;
+    border-radius:30px;
+    width: 1200px;
+}
+.image-contanier {    
+    position: relative; 
+}
+.image-contanier img {
+        height: 400px; 
+        width: 100%;
+        border-radius: 30px 30px 0px 0px;
+} 
+.userImg-contanier img {
+    position: absolute;
+    border-radius: 50%;
+    width: 150px;
+    bottom: 10px;;
+    left: 180px;
+}
+.woker-Name {
+    margin-left: 280px;
+    margin-top: 10px;
+} 
+.woker-Name h4 {
+    font-weight: 700;
+}
+.Woker-info{
+    margin: 80px 140px 0px 140px;
+}
+.Woker-info-contanier {
+    display: flex;
+    justify-content: space-between;
+}
+.worker-info-lef-contanier {
+    flex: 0 1 50%;
+}
+.worker-info-right-contanier {
+flex:  0 1 50%;
+}
+.review-Service-provider-contanier {
+    margin-left: 20px;
+   
+}
+.review-Service-provider-Sub-contanier {
+    margin-top: 22px;
+    padding:20px 20px 8px 20px;
+    border: 2px solid rgb(216, 211, 211);
+    transition: all 0.5s;
+    height: 182px;
+    overflow: auto;
+}
+.review-worker-contanier {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+.review-user-image {
+    width: 60px;
+    border-radius: 50%;
+}
+.review-woker-name {
+    font-size: 20px;
+}
+.review-deisc {
+    margin: 10px;
+    font-size: 18px;
+    opacity: 0.7;
+    height: 70px;
+}
+.conatct-woker-title {
+    margin-top: 20px;
+    margin-left: 20px;
+ 
+}
+/* .provider-title {
+    text-align: center;
+} */
+
+.chat-contanier {
+    display: flex;
+    justify-content: center;
+    margin-top: 38px;
+}
+.chat-contanier button {
+    display: flex;
+    border: 1px solid #3498db;
+    background-color: #3498db;
+    border-radius: 8px;
+    padding:8px 10px;
+    column-gap: 10px;
+}
+.chat-contanier h4 {
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: white
+}
+.chat-contanier ion-icon {
+    font-size: 25px;
+    color: white;   
+}
+
+.worker-iformation {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 50px;
+}
+.worker-iformation li {
+    margin-bottom: 15px;
+}
+.id-contanier {
+    display: flex;
+    justify-content: space-between;
+}
+.complain {
+    margin-right: 80px;
+    padding:5px 10px;
+    border-radius: 8px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 0;
+    border: 1px solid #3498db;
+    background-color: #3498db;
+    font-size: 20px;
+
+}
+.Woker-rating-contanier {
+    display: flex;
+    justify-content: space-between;
+}
+.Worker-Rating-heading {
+    font-size: 30px;
+    font-weight: 700;
+    opacity: 0.8;
+}
+.Worker-star-contanier ul {
+    color: rgb(130, 128, 128);
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-right: 95px;
+}
+.worker-star {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-bottom: 0;
+    column-gap: 15px;
+    font-size: 20px;
+    background-color: white;
+}

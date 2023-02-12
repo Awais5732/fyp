@@ -1,0 +1,35 @@
+.Sign-In-contanier{
+    margin: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:rgb(35, 35, 35) 0px 5px 15px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 60px 0px 60px 25px;
+}
+.sign-in-sub-contanier {
+   padding: 80px;
+}
+.sign-in-sub-contanier p {
+    text-align: center;
+    font-size: 20px;
+}
+.sign-In-form-contanier {
+    text-align: center;
+}
+.sign-In-form-contanier input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: 1px solid black;
+    width: 100%;
+}
+.form-submit-btn {
+    padding:10px 30px;
+    border-radius: 30px;
+    color: white;
+    border: 1px solid #3498db;
+    background-color: #3498db;
+    font-size: 30px;
+}

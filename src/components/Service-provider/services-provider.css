@@ -1,0 +1,15 @@
+.main-services-provider-contanier a {
+    color: black;
+    text-decoration: none;
+}
+.worker-list{
+    padding: 30px 80px 60px 80px;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    gap: 50px;
+}
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}

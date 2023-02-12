@@ -1,0 +1,17 @@
+.services-contanier {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 60px 50px;
+    gap: 30px;
+}
+.title-services-contanier {
+    text-align: center;
+    margin: 60px 0px;
+}
+.title-services {
+   font-size:35px ;
+}
+.detail-title {
+    font-size: 20px;
+    opacity: 0.6;
+}

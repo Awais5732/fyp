@@ -1,0 +1,137 @@
+header {
+    padding: 10px 50px;
+    background-color: black
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar-left-elements {
+    flex: 0 1 10%;
+}
+.logo {
+    align-self: center;
+    width: 120px;
+    cursor: pointer;
+}
+.navbar-li-elements {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    column-gap: 20px;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.navbar-li-elements li {
+    cursor: pointer;    
+    padding: 5px 8px;
+    border: 1px solid black; 
+    border-radius: 10px;
+}
+.navbar-li-elements li:hover {
+    border: 1px solid #3498db;
+    background-color: #3498db; 
+    border-radius: 10px;
+}
+.services-dropDown {
+    display: flex;
+    column-gap: 6px;
+    position: relative;
+}
+.services-dropDown ion-icon {
+    margin-top: 6px;
+}
+.services-dropDown  li a {
+    display: inline-block;
+    width: 100%;
+}
+.dropdown-subcontainer
+{
+    position: absolute;
+    display: none;
+    padding: 20px 0px 15px 0px;
+    border-radius: 0px 0px 8px 8px;
+    width: 280px;
+    opacity: 0.7;
+    background-color: black;
+    top: 35px;
+    left: -4px;
+    z-index: 1;
+}
+.dropdown-links-container {
+    
+    list-style: none;
+    font-size: 18px;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.dropdown-links-container li {
+    padding: 2px 12px;
+}
+ .services-dropDown:hover .dropdown-subcontainer {
+    display: block;
+}   
+.navbar-right-elements {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 0 1 10%;
+}
+.navbar-right-elements ion-icon {
+ color: white;
+ font-size: 35px;
+ cursor: pointer;
+ position: relative;
+
+}
+.dropdown-register-conrtanie {
+     position: absolute;
+     padding: 20px 0px 15px 0px;
+     border-radius: 0px 0px 8px 8px;
+     width: 160px;
+     opacity: 0.7;
+     display: none;
+     background-color: black;
+     top: 45px;
+     right: 15px;
+     z-index: 1; 
+}
+.dropdown-reg-sub-contanier {
+    list-style: none;
+    font-size: 18px;
+    color: white;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.dropdown-reg-sub-contanier li {
+    cursor: pointer;    
+    padding: 5px 18px;
+    border: 1px solid black; 
+    border-radius: 10px;
+}
+.my-profile {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.my-profile ion-icon {
+    font-size: 25px;
+}
+.my-profile p {
+    margin-bottom: 0;
+}
+.navbar-right-elements:hover .dropdown-register-conrtanie {
+    display: block;
+}
+.dropdown-reg-sub-contanier li:hover {
+    border: 1px solid #3498db;
+    background-color: #3498db; 
+    border-radius: 10px;
+}

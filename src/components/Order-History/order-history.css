@@ -1,0 +1,45 @@
+.contact-us-title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;  
+    font-size: 35px;
+}
+.Contact-us-detail {
+    text-align: center;
+    margin-bottom: 0; 
+    font-size: 24px;
+    opacity: 0.6;
+}
+.Team-Details {
+    background-color: white;
+    box-shadow:rgb(35, 35, 35) 0px 5px 15px; 
+    width: 90%;
+    margin: 50px auto;
+    padding:15px 5px;
+    border-radius: 20px;
+} 
+.table-styling {
+    width: 100%; 
+    margin: 0 auto;
+    table-layout: fixed; 
+}
+.table-styling thead tr th {
+    text-align: center;
+    color: black;
+    font-size:25px;
+    padding: 30px;
+    background-color: white;
+}
+.table-styling tbody tr td {
+    color: black;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+.table-dark {
+    --bs-table-border-color: #373b3e;
+    --bs-table-hover-bg: #545353;
+    --bs-table-hover-color: #fff;
+    color: var(--bs-table-color);
+    border-color: var(--bs-table-border-color);
+}

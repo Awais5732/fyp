@@ -1,0 +1,45 @@
+.hot-seller-contanier {
+    padding:20px 20px 8px 20px;
+    box-shadow:rgb(74, 73, 73) 0px 5px 15px;
+    border-radius: 25px;;  
+    border: 4px solid rgb(216, 211, 211);
+    transition: all 0.5s;
+    background-color: rgb(228, 223, 223);
+}
+.hot-seller-num {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+.hot-selller-image {
+    width: 60px;
+    border-radius: 50%;
+}
+.hot-seller-name {
+    font-size: 20px;
+}
+.hot-seller-description {
+    margin: 10px;
+    font-size: 18px;
+    opacity: 0.7;
+    height: 70px;
+    overflow: auto;
+}
+.hot-seller-rating-contanier {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.hot-seller-star{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-bottom: 0;
+    column-gap: 15px;
+    font-size: 20px;
+    background-color: rgb(228, 223, 223);
+}
+.hot-seller-contanier:hover {
+    border-radius: 30PX;
+    border: 4px solid black;
+}

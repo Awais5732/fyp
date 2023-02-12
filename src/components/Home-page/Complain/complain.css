@@ -1,0 +1,69 @@
+.contact-us-title {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+    margin-bottom: 0;  
+}
+.Contact-us-detail {
+    text-align: center;
+    margin-bottom: 0; 
+    font-size: 20px;
+    opacity: 0.6;
+}
+.complain-contanier {
+    background-color: rgb(228, 223, 223);
+    box-shadow:rgb(74, 73, 73) 0px 5px 15px;
+    margin:50px 50px 80px 50px;
+    padding: 50px 80px;
+    display: flex;
+   
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.complain-heading-contanier {
+    flex: 0 1 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.complain-heading {
+    font-size: 40px;
+}
+.email-contact-contanier {
+    display: flex;
+    column-gap: 10px;
+}
+.complain-form-contanier {
+    flex: 0 1 40%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.complain-form {
+    display: flex;
+    row-gap: 30px;
+    width: 100%;
+    flex-direction: column;
+}
+.complain-input-contanier {
+    display: flex;
+    column-gap: 20px;
+} 
+.complain-input-contanier  input {
+    border: 1px solid black;
+    padding: 10px;
+}
+.complain-form textarea {
+    height: 130px;
+    padding: 10px;
+    overflow: auto;
+}
+.complain-submit {
+    padding:10px 30px;
+    border-radius: 8px;
+    color: white;
+    border: 1px solid #3498db;
+    background-color: #3498db;
+    font-size: 30px;
+}
